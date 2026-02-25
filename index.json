@@ -1,0 +1,72 @@
+{
+  "api/Erronka.Datubasea.html": {
+    "href": "api/Erronka.Datubasea.html",
+    "title": "Class Datubasea | TiketBai",
+    "summary": "Class Datubasea Namespace Erronka Assembly 2.Erronka.dll public static class Datubasea Inheritance object Datubasea Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields autosalmentaIzena public static string autosalmentaIzena Field Value string baskulaIdByName public static Dictionary<string, int> baskulaIdByName Field Value Dictionary<string, int> produktuaIdByName public static Dictionary<(string izena, int baskulaId), int> produktuaIdByName Field Value Dictionary<(string izena, int baskulaId), int> Methods AutoSalmentaKargatu(string) public static void AutoSalmentaKargatu(string connStr) Parameters connStr string BaskulakKargatu(string) public static void BaskulakKargatu(string connStr) Parameters connStr string ProduktuakKargatu(string) public static void ProduktuakKargatu(string connStr) Parameters connStr string TicketakErakutsi() public static void TicketakErakutsi() TiketakMysqleraSartu(string, List<Tiketa>) public static void TiketakMysqleraSartu(string connStr, List<Tiketa> lt) Parameters connStr string lt List<Tiketa> UpdateSaltzailea(int, int) public static void UpdateSaltzailea(int tiketaznebakia, int aldaketa) Parameters tiketaznebakia int aldaketa int"
+  },
+  "api/Erronka.EstatistikakUI.html": {
+    "href": "api/Erronka.EstatistikakUI.html",
+    "title": "Class EstatistikakUI | TiketBai",
+    "summary": "Class EstatistikakUI Namespace Erronka Assembly 2.Erronka.dll public class EstatistikakUI Inheritance object EstatistikakUI Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods EstatistikakPolitEman() public void EstatistikakPolitEman()"
+  },
+  "api/Erronka.Funtzioak.html": {
+    "href": "api/Erronka.Funtzioak.html",
+    "title": "Class Funtzioak | TiketBai",
+    "summary": "Class Funtzioak Namespace Erronka Assembly 2.Erronka.dll public class Funtzioak Inheritance object Funtzioak Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Ekintzak() public static void Ekintzak() EnterItxaron() public static void EnterItxaron() ExceleraGorde(string, string) public static void ExceleraGorde(string xmlBidea, string jaso) Parameters xmlBidea string jaso string LortuFitxategiData(string) public static DateTime LortuFitxategiData(string fitxPath) Parameters fitxPath string Returns DateTime MugituTxtGuztiak(string) public static void MugituTxtGuztiak(string iturriaKarpeta) Parameters iturriaKarpeta string TiketakIrakurri() public static bool TiketakIrakurri() Returns bool"
+  },
+  "api/Erronka.Menua.html": {
+    "href": "api/Erronka.Menua.html",
+    "title": "Class Menua | TiketBai",
+    "summary": "Class Menua Namespace Erronka Assembly 2.Erronka.dll public static class Menua Inheritance object Menua Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Main() Defines the entry point of the application. public static void Main()"
+  },
+  "api/Erronka.Saltzailea.html": {
+    "href": "api/Erronka.Saltzailea.html",
+    "title": "Class Saltzailea | TiketBai",
+    "summary": "Class Saltzailea Namespace Erronka Assembly 2.Erronka.dll public class Saltzailea Inheritance object Saltzailea Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Saltzailea() public Saltzailea() Saltzailea(int, int, int, DateTime, decimal, decimal) public Saltzailea(int i, int p, int l, DateTime d, decimal k, decimal pg) Parameters i int p int l int d DateTime k decimal pg decimal Properties Data public DateTime Data { get; set; } Property Value DateTime Idtiketa public int Idtiketa { get; set; } Property Value int Kopurua public decimal Kopurua { get; set; } Property Value decimal Langilea public int Langilea { get; set; } Property Value int Prezioguztira public decimal Prezioguztira { get; set; } Property Value decimal Produktua public int Produktua { get; set; } Property Value int Methods SaltzaileaAldatu(List<Tiketa>) public static void SaltzaileaAldatu(List<Tiketa> lt) Parameters lt List<Tiketa> TiketakKargatu() public static List<Saltzailea> TiketakKargatu() Returns List<Saltzailea> aldatu(int, List<Tiketa>) public static void aldatu(int a, List<Tiketa> lt) Parameters a int lt List<Tiketa>"
+  },
+  "api/Erronka.Tiketa.html": {
+    "href": "api/Erronka.Tiketa.html",
+    "title": "Class Tiketa | TiketBai",
+    "summary": "Class Tiketa Namespace Erronka Assembly 2.Erronka.dll public class Tiketa Inheritance object Tiketa Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Tiketa() public Tiketa() Tiketa(int, int, int, double, double, double, DateTime) public Tiketa(int b, int p, int l, double pr, double k, double pg, DateTime d) Parameters b int p int l int pr double k double pg double d DateTime Properties Baskula public int Baskula { get; set; } Property Value int Data public DateTime Data { get; set; } Property Value DateTime Kopurua public double Kopurua { get; set; } Property Value double Langilea public int Langilea { get; set; } Property Value int Prezioa public double Prezioa { get; set; } Property Value double Prezioguztira public double Prezioguztira { get; set; } Property Value double Produktua public int Produktua { get; set; } Property Value int"
+  },
+  "api/Erronka.XML.html": {
+    "href": "api/Erronka.XML.html",
+    "title": "Class XML | TiketBai",
+    "summary": "Class XML Namespace Erronka Assembly 2.Erronka.dll public class XML Inheritance object XML Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Balidatu(string, string) public static bool Balidatu(string xml, string xsd) Parameters xml string xsd string Returns bool BidaliXml() public static void BidaliXml() HartuXmlBidea() public static string HartuXmlBidea() Returns string MugituXml() public static void MugituXml() TiketakXmlraGorde(List<Tiketa>) public static void TiketakXmlraGorde(List<Tiketa> lt) Parameters lt List<Tiketa>"
+  },
+  "api/Erronka.Zenbakia.html": {
+    "href": "api/Erronka.Zenbakia.html",
+    "title": "Class Zenbakia | TiketBai",
+    "summary": "Class Zenbakia Namespace Erronka Assembly 2.Erronka.dll public static class Zenbakia Inheritance object Zenbakia Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Berdina Gets or sets the berdina. public static int Berdina { get; set; } Property Value int The berdina."
+  },
+  "api/Erronka.html": {
+    "href": "api/Erronka.html",
+    "title": "Namespace Erronka | TiketBai",
+    "summary": "Namespace Erronka Classes Datubasea EstatistikakUI Funtzioak Menua Saltzailea Tiketa XML Zenbakia"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | TiketBai",
+    "summary": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | TiketBai",
+    "summary": "Introduction"
+  },
+  "getting-started.html": {
+    "href": "getting-started.html",
+    "title": "Getting Started | TiketBai",
+    "summary": "Getting Started"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | TiketBai",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  },
+  "introduction.html": {
+    "href": "introduction.html",
+    "title": "Introduction | TiketBai",
+    "summary": "Introduction"
+  }
+}
